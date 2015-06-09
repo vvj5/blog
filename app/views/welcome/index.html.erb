@@ -4,23 +4,11 @@
 
 
 
-
-    <% posts.each do |post| %>
-            <%= render partial: 'post', locals: { post: post } %>
-            <form action="/posts" method="POST">
-          <p>Task: <input type="text" name="Task"></p>
-          <p>Complete: <input type="checkbox" name="Complete"></p>
-          <input type="submit" value-"CREATE NEW TODO">
-          </form>
-            <% end %>
-
-
-
-
           <div class="text_body_heading">
           here is some text
+
           </div>
-            <a href="/show">go to Show page</a>
+          <a href="/show">go to Show page</a>
 
 
       </div>

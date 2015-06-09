@@ -1,7 +1,7 @@
 class WelcomeController < ApplicationController
 
   def index
-    render "index.html.erb", locals: { posts: Post.all }
+    render "index.html.erb"
   end
 
   def about
