@@ -1,0 +1,100 @@
+header {
+  background-color: #666666;
+  border: 2px solid yellow;
+  padding: 20px;
+  text-align: center;
+  font-size: 34px;
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+
+  nav {
+  background-color: LightGreen;
+  border: 2px solid yellow;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 10px;
+  color: #333333;
+ a:link {color:#333333; text-decoration: none;}
+  a:visited {color:#555555; text-decoration: none;}
+  a:hover {background:white;}
+  a:active {color:#333333; text-decoration: none;}
+}
+}
+
+footer {
+  background-color: #666666;
+  border: 2px solid yellow;
+  padding: 20px;
+  text-align: center;
+  font-size: 34px;
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+
+  nav {
+  background-color: LightGreen;
+  border: 2px solid yellow;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 10px;
+  color: #333333;
+ a:link {color:#333333; text-decoration: none;}
+  a:visited {color:#555555; text-decoration: none;}
+  a:hover {background:white;}
+  a:active {color:#333333; text-decoration: none;}
+}
+}
+
+.text_body_heading {
+  background-color: #cccccc;
+  border: 2px solid yellow;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #333333;
+}
+
+.text_body_todo {
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  a:link {color:#333333; text-decoration: none;}
+  a:visited {color:#555555; text-decoration: none;}
+  a:hover {background:red; color: white}
+  a:active {color:#333333; text-decoration: none;}
+}
+
+.body_box_outer {
+  margin-top: 10px;
+  background-color: #666666;
+  border: 2px yellow solid;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body_box_inner {
+  background-color: LightGreen;
+  border: 2px yellow solid;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial;
+  color: white;
+}
+
