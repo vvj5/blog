@@ -10,37 +10,9 @@ all posts. (Note: The index page for posts, not the root url)
           <div class="text_body_heading">
           click on a post title to read more
           </div>
-            <a href="/index.html">BACK TO INDEX LINK HERE</a>
+            <a href="/">BACK TO INDEX PAGE</a>
 
 
-
-            <form action="/posts" method="POST">
-              <p>Task: <input type="text" name="Post"></p>
-              <p>Complete: <input type="checkbox" name="COMPLETE"></p>
-              <input type="submit" value-"CREATE ANOTHER POST">
-            </form>
-
-            <% end %>
-          </div>
-        </div>
     </div>
 </div>
-
-
-
-
-<!--
-def destroy
-    if Student.exists?(params[:id])
-      Student.destroy(params[:id])
-      render json: { message: 'destroyed' }, status: 200
-    else
-      render json: { error: 'Student not found' }, status: 404
-    end
-  end
- -->
-
- <div class="text_body_todo">
-             <% posts.each do |post| %>
-            <%= render partial: 'post', locals: { post: post } %>
 
